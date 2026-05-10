@@ -69,7 +69,7 @@ def build_frames(temp: int, humidity: int, wind_speed_val: float, wind_dir_deg: 
     step = 0
     MAX_STEPS = 1000
 
-    with st.spinner("🔥 시뮬레이션 경로를 미리 계산 중입니다... (Pre-computing)"):
+    with st.spinner("🔥 시뮬레이션 경로를 미리 계산 중입니다..."):
         while np.any(grid == FIRE) and step < MAX_STEPS:
             new_grid = grid.copy()
             for r in range(GRID_SIZE):
