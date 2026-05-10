@@ -1,6 +1,6 @@
 ## 🌲 산불 시뮬레이터
 
-Cellular Automata를 통해 산불의 확산을 시뮬레이션합니다.
+Cellular Automata를 통해 산불의 확산을 시뮬레이션합니다. [바로가기](https://jwchoi-wildfire.streamlit.app/)
 
 ### 주요 로직
 
